@@ -1,0 +1,89 @@
+.storeHeader {
+  width: 100%;
+  height: 30%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+
+  .storeHeader__container {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem #00000013 !important;
+
+    .storeHeader__img_container .storeHeader__img_container_img {
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .storeHeader__storeInfo_container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      span {
+        color: black;
+      }
+      a {
+        text-decoration: none;
+        font-weight: 700;
+        &:visited {
+          text-decoration: none;
+          color: black;
+        }
+      }
+      h1 {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      .storeHeader__storeInfo_details {
+        display: flex;
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+        .space {
+          margin: 0 0.5rem;
+        }
+        .storeHeader__storeInfo_address {
+          text-decoration: none;
+          color: black;
+        }
+        .storeHeader__storeInfo_address,
+        .storeHeader__storeInfo_phone,
+        .storeHeader__storeInfo_about {
+          position: relative;
+          display: inline-block;
+          font-size: 0.9rem;
+          font-weight: 800;
+
+          .tooltiptext_find,
+          .tooltiptext_store,
+          .tooltiptext_schedule {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            top: 100%;
+            left: 50%;
+            margin-left: -60px;
+          }
+        }
+        .storeHeader__storeInfo_address:hover .tooltiptext_find,
+        .storeHeader__storeInfo_phone:hover .tooltiptext_store,
+        .storeHeader__storeInfo_about:hover .tooltiptext_schedule {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}

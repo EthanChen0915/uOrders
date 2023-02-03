@@ -1,0 +1,31 @@
+.card__rightContainer_img{
+    width: 120px;
+    height: 120px;
+}
+.card{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card__container{
+    width: 350px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    border: 0.1rem solid rgb(225, 225, 225);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.7;
+    }
+    .card__leftContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,416 @@
+{
+  "store": {
+    "img": "https://images.uorder.io/uploads/20221020/orVwUAlLugAt3gGosPwtluEpqTZ7BFuPGZc0v25j.jpg",
+    "address": "136-16 35th Avenue, Flushing, New York, 11354",
+    "storeName": "US Steak House",
+    "phoneNumber": "(888) 885-8840"
+  },
+  "dishes": [
+    {
+      "category": "burger",
+      "types": [
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 1,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/P0YJVxE9OmVhqFbW6iVQjpErucRfJr01VE8jLr9Y.jpg",
+          "soldout": false,
+          "custom": [
+            {
+              "select": 2,
+              "choiceCategory": "Choice of Greens",
+
+              "extra": [
+                {
+                  "id": 123,
+                  "choice": "Lettuce",
+                  "checkedbox": true,
+                  "price": 0.0,
+                  "disable": false
+                },
+                {
+                  "id": 124,
+                  "choice": "Tomato",
+                  "checkedbox": false,
+                  "price": 0.0,
+                  "disable": false
+                },
+                {
+                  "id": 125,
+                  "choice": "Onion",
+                  "checkedbox": false,
+                  "price": 0.0,
+                  "disable": false
+                }
+              ]
+            },
+            {
+              "select": 999,
+              "choiceCategory": "Extra of Greens",
+              "extra": [
+                {
+                  "id": 126,
+                  "choice": "Lettuce",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 127,
+                  "choice": "Tomato",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 128,
+                  "choice": "Onion",
+                  "checkedbox": false,
+                  "price": 1.5
+                }
+              ]
+            },
+            {
+              "select": 1,
+              "choiceCategory": "Choice of Cheese",
+              "extra": [
+                {
+                  "id": 129,
+                  "choice": "Cheddar Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 130,
+                  "choice": "Swiss Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 131,
+                  "choice": "Blue Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                }
+              ]
+            },
+            {
+              "select": 999,
+              "choiceCategory": "Extra of Cheese",
+              "extra": [
+                {
+                  "id": 132,
+                  "choice": "Cheddar Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 133,
+                  "choice": "Swiss Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 134,
+                  "choice": "Blue Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 2,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/uq80uW8lh6WMMW4uUjqvE02sEwvQMrGNFA6VsNXw.jpg",
+          "soldout": true,
+          "custom": [
+            {
+              "select": 2,
+              "choiceCategory": "Choice of Greens",
+              "extra": [
+                {
+                  "id": 123,
+                  "choice": "Lettuce",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 124,
+                  "choice": "Tomato",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 125,
+                  "choice": "Onion",
+                  "checkedbox": false,
+                  "price": 0.0
+                }
+              ]
+            },
+            {
+              "select": 999,
+              "choiceCategory": "Extra of Greens",
+              "extra": [
+                {
+                  "id": 126,
+                  "choice": "Lettuce",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 127,
+                  "choice": "Tomato",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 128,
+                  "choice": "Onion",
+                  "checkedbox": false,
+                  "price": 1.5
+                }
+              ]
+            },
+            {
+              "select": 1,
+              "choiceCategory": "Choice of Cheese",
+              "extra": [
+                {
+                  "id": 129,
+                  "choice": "Cheddar Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 130,
+                  "choice": "Swiss Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 131,
+                  "choice": "Blue Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                }
+              ]
+            },
+            {
+              "select": 999,
+              "choiceCategory": "Extra of Cheese",
+              "extra": [
+                {
+                  "id": 132,
+                  "choice": "Cheddar Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 133,
+                  "choice": "Swiss Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 134,
+                  "choice": "Blue Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 3,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/P0YJVxE9OmVhqFbW6iVQjpErucRfJr01VE8jLr9Y.jpg",
+          "soldout": false,
+          "custom": [
+            {
+              "select": 2,
+              "choiceCategory": "Choice of Greens",
+              "extra": [
+                {
+                  "id": 123,
+                  "choice": "Lettuce",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 124,
+                  "choice": "Tomato",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 125,
+                  "choice": "Onion",
+                  "checkedbox": false,
+                  "price": 0.0
+                }
+              ]
+            },
+            {
+              "select": 999,
+              "choiceCategory": "Extra of Greens",
+              "extra": [
+                {
+                  "id": 126,
+                  "choice": "Lettuce",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 127,
+                  "choice": "Tomato",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 128,
+                  "choice": "Onion",
+                  "checkedbox": false,
+                  "price": 1.5
+                }
+              ]
+            },
+            {
+              "select": 1,
+              "choiceCategory": "Choice of Cheese",
+              "extra": [
+                {
+                  "id": 129,
+                  "choice": "Cheddar Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 130,
+                  "choice": "Swiss Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                },
+                {
+                  "id": 131,
+                  "choice": "Blue Cheese",
+                  "checkedbox": false,
+                  "price": 0.0
+                }
+              ]
+            },
+            {
+              "select": 999,
+              "choiceCategory": "Extra of Cheese",
+              "extra": [
+                {
+                  "id": 132,
+                  "choice": "Cheddar Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 133,
+                  "choice": "Swiss Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                },
+                {
+                  "id": 134,
+                  "choice": "Blue Cheese",
+                  "checkedbox": false,
+                  "price": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 4,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/uq80uW8lh6WMMW4uUjqvE02sEwvQMrGNFA6VsNXw.jpg",
+          "soldout": true
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 5,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/P0YJVxE9OmVhqFbW6iVQjpErucRfJr01VE8jLr9Y.jpg",
+          "soldout": false
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 6,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/uq80uW8lh6WMMW4uUjqvE02sEwvQMrGNFA6VsNXw.jpg",
+          "soldout": true
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 7,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/P0YJVxE9OmVhqFbW6iVQjpErucRfJr01VE8jLr9Y.jpg",
+          "soldout": false
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 8,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/uq80uW8lh6WMMW4uUjqvE02sEwvQMrGNFA6VsNXw.jpg",
+          "soldout": true
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 9,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/P0YJVxE9OmVhqFbW6iVQjpErucRfJr01VE8jLr9Y.jpg",
+          "soldout": false
+        },
+        {
+          "name": "Avocado Bacon Burger",
+          "id": 10,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/uq80uW8lh6WMMW4uUjqvE02sEwvQMrGNFA6VsNXw.jpg",
+          "soldout": true
+        }
+      ]
+    },
+    {
+      "category": "Drink",
+      "types": [
+        {
+          "name": "Avocado Bacon Drink",
+          "id": 1,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/P0YJVxE9OmVhqFbW6iVQjpErucRfJr01VE8jLr9Y.jpg",
+          "soldout": false
+        },
+        {
+          "name": "Avocado Drink Drink",
+          "id": 2,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/uq80uW8lh6WMMW4uUjqvE02sEwvQMrGNFA6VsNXw.jpg",
+          "soldout": true
+        },
+        {
+          "name": "Avocado Drink Drink",
+          "id": 3,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/P0YJVxE9OmVhqFbW6iVQjpErucRfJr01VE8jLr9Y.jpg",
+          "soldout": false
+        },
+        {
+          "name": "Drink Drink Drink",
+          "id": 4,
+          "price": 10.99,
+          "img": "https://images.uorder.io/uploads/20221020/uq80uW8lh6WMMW4uUjqvE02sEwvQMrGNFA6VsNXw.jpg",
+          "soldout": true
+        }
+      ]
+    }
+  ]
+}
